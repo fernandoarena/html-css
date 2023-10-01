@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body {
+    background-image: linear-gradient(to right, #589A8D, #8FC1B5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #265C4B;
+    text-align: left;
+}
+h1#principal {
+    text-align: center;
+    background-color: #007566;
+    color: white;
+
+}
+h2 {
+    color: #007566;
+}
+.basico {
+    color: #5c7500 ;
+    font-weight: bolder;
+    font-style: italic;
+}
+.intermediario {
+    color:  #007566;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.avançado {
+    color:  #750006;
+    font-weight: bolder;
+font-style: italic;
+}
+.destaque {
+    font-size: 18px;
+    background-color: #007566;
+}
+/* Tdo que no HTML é id, no CSS é #
+Tudo que no HTML é class, no CSS é . */

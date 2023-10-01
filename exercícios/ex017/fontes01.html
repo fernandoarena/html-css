@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }
+        /*
+        Medidas Absolutas:
+        cm(centímetro), mm (milímetro), in (polegada), px (pixel), pt (ponto), pc(paica)
+        Medidas Relativas:
+        em(relativo ao tamanho do M maiúsculo da fonte atual), ex(relativo ao x da fonte atual), rem(relativo a fonte conf no body), vw(rel a largura da viewport "tela"), vh(rel a altura da viewport "tela")
+        16px geralmente é = a 1em
+        */
+        h1 {
+            /* Shorthand font 
+            - font-style -> font-weight -> font-size-> font-family
+
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: "work sans, sans-serif" 
+            */
+            font: italic bolder 3em "work sans, sans-serif";
+        }
+        h2 {
+            /*Tambem pode-se deixar de colocar alguma declaração na shorthand, mas sempre seguindo a ordem
+            font-weight: bolder;
+            font-size: 2em;
+            font-family: "work sans";
+            */
+            font: bolder 2em "work sans";
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora delectus officiis iusto voluptates soluta quo ab quisquam incidunt doloribus at enim magnam minima cum nulla animi, dolor error voluptatum repellat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nihil ipsa nobis? Excepturi cum magni iusto laudantium deleniti dolor quaerat, vel molestias maiores autem nisi omnis laboriosam nihil, quo reiciendis.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur cumque cupiditate animi error, officiis minima vitae! Voluptate minus accusantium aspernatur iste suscipit doloribus aut, molestias magnam debitis ratione voluptatibus ducimus.</p>
+    
+</body>
+</html>

@@ -3,20 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de fundo</title>
+    <title>Posição dos Fundos</title>
+    <style>
+        div.bloco {
+            background-image: url(imagens/wallpaper003.jpg);
+            height: 150px;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin: 10px;
+
+        }
+        div#q1 {
+            background-position: left top;
+        }
+        div#q2 {
+            background-position: right top;
+
+        }
+        div#q3 {
+            background-position: center;
+
+        }
+        div#q4 {
+            background-position: right bottom;
+
+        }
+    </style>
 </head>
 <body>
-    <div>
+    <div class="bloco" id="q1">
 
     </div>
-    <div>
+    <div class="bloco" id="q2">
 
     </div>
-    <div>
+    <div class="bloco" id="q3">
 
     </div>
-    <div>
-        
+    <div class="bloco" id="q4">
+
     </div>
     
 </body>
